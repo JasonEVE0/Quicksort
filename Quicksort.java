@@ -1,11 +1,11 @@
 /**
- * Quicksort algorithm with random pivot
+ * Quicksort algorithm with random pivot.
  * Feel free to use, modify, distribute this work however you wish.
  */
 public class Quicksort {
 
     /**
-     * Sorts the given array in ascending order.
+     * Sorts the given array into ascending order.
      * @param array the array to be sorted.
      * @param low the minimum index of the array.
      * @param high the maxiumum index of the array.
@@ -46,8 +46,8 @@ public class Quicksort {
     /**
      * Swaps the positions of the argumented indices.
      * @param array the array which the swap is performed on.
-     * @param x1 the first element to be swapped.
-     * @param x2 the second element to be swapped.
+     * @param x1 the index of the first element to be swapped.
+     * @param x2 the index of the second element to be swapped.
      */
     private void swap(int[] array, int x1, int x2){
         int temp = array[x1];
