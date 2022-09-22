@@ -6,9 +6,6 @@ public class Quicksort {
 
     /**
      * Sorts the given array into ascending order.
-     * @param array the array to be sorted.
-     * @param low the minimum index of the array.
-     * @param high the maxiumum index of the array.
      */
     public void quicksort(int[] array, int low, int high){
         if (low < high){
@@ -21,10 +18,6 @@ public class Quicksort {
 
     /**
      * Partitions the array.
-     * @param array the array to be sorted.
-     * @param low the minimum index of the array.
-     * @param high the maxiumum index of the array.
-     * @return the index which has been placed in its correct position is returned.
      */
     private int partition(int[] array, int low, int high){
         int i = low;
@@ -45,9 +38,6 @@ public class Quicksort {
 
     /**
      * Swaps the positions of the argumented indices.
-     * @param array the array which the swap is performed on.
-     * @param x1 the index of the first element to be swapped.
-     * @param x2 the index of the second element to be swapped.
      */
     private void swap(int[] array, int x1, int x2){
         int temp = array[x1];
